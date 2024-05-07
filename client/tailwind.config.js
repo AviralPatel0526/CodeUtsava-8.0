@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        bgAnimate: {
+          '0%,100%': { backgroundPosition: 'left' },
+          '50%': { backgroundPosition: 'right' },
+        }
+      },
+      animation: {
+        bgAnimate: 'bgAnimate 25s infinite ',
+      },
+    },
+    colors: {
+      primary: '#78cc6d',
+    },
   },
   plugins: [],
 }
