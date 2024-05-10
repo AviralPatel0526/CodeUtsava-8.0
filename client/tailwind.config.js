@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#78cc6d',
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'serif'],
+        
+      },
       keyframes: {
         bgAnimate: {
           '0%,100%': { backgroundPosition: 'left' },
@@ -15,10 +22,7 @@ export default {
       animation: {
         bgAnimate: 'bgAnimate 25s infinite ',
       },
-    },
-    colors: {
-      primary: '#78cc6d',
-    },
+    }
   },
   plugins: [],
 }
