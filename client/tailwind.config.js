@@ -17,10 +17,15 @@ export default {
         bgAnimate: {
           '0%,100%': { backgroundPosition: 'left' },
           '50%': { backgroundPosition: 'right' },
+        },
+        textType: {
+          '40%,60%':{ left: '100%'},
+          '100%':{left : '0%'}
         }
       },
       animation: {
         bgAnimate: 'bgAnimate 25s infinite ',
+        textType: 'textType 4s steps(12) infinite',
       },
     }
   },
