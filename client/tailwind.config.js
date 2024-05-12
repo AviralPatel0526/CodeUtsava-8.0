@@ -25,7 +25,7 @@ export default {
       },
       animation: {
         bgAnimate: 'bgAnimate 25s infinite ',
-        textType: 'textType 4s steps(12) infinite',
+        textType: 'textType 6s steps(12) infinite',
       },
     }
   },

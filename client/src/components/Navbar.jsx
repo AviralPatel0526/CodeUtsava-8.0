@@ -2,7 +2,7 @@ import React from 'react'
 import { FaUser, FaPaintbrush, FaFileLines, FaBimobject,FaCommentDots } from "react-icons/fa6";
 function Navbar() {
   return (
-    <div>
+    <div className=''>
       <div className='w-[70px] h-[350px] bg-white rounded-md flex flex-col font-poppins'>
       <div className='group font'>
       <a href="#" className="flex flex-col items-center justify-center h-[70px] w-full gap-1">
