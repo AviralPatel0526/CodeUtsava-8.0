@@ -7,7 +7,7 @@ import express from '../assets/express.png'
 import postgres from '../assets/postgresql.png'
 function About() {
   return (
-    <div className='w-[49vw] min-h-[100vh] flex flex-col font-poppins p-8 gap-8'>
+    <div className='w-[48vw] min-h-[100vh] flex flex-col font-poppins p-8 gap-8'>
         <div className='flex flex-col gap-4'>
             <div className='h-[5vh] flex items-center '>
             <h1 className='text-xl font-medium'><span className='text-primary'>About</span> Me</h1>
@@ -71,6 +71,36 @@ function About() {
                 <p className='text-gray-600'> I design and optimize database solutions that power mission-critical applications. Leveraging SQL expertise, I model complex data structures and implement efficient queries to ensure data integrity and performance. With PostgreSQL, I build scalable, reliable data solutions that empower businesses to thrive in the digital age.</p>
               </div>
               
+            </div>
+            <div className='w-full flex flex-col gap-4 mt-8'>
+            <div className='h-[5vh] flex items-center '>
+            <h1 className='text-xl font-medium'><span className='text-primary'>Skill</span> Levels</h1>
+            </div>
+            <hr />
+                <div className='flex gap-4 items-center'>
+                      <p className='w-[18%]'>Tailwind CSS</p>
+                      <progress value="80" max="100" className='w-[80%]'></progress>
+                </div>
+                <div className='flex gap-4 items-center'>
+                      <p className='w-[18%]'>Javascript</p>
+                      <progress value="70" max="100" className='w-[80%]'></progress>
+                </div>
+                <div className='flex gap-4 items-center'>
+                      <p className='w-[18%]'>React JS</p>
+                      <progress value="90" max="100" className='w-[80%]'></progress>
+                </div>
+                <div className='flex gap-4 items-center'>
+                      <p className='w-[18%]'>Node JS</p>
+                      <progress value="70" max="100" className='w-[80%]'></progress>
+                </div>
+                <div className='flex gap-4 items-center'>
+                      <p className='w-[18%]'>Express</p>
+                      <progress value="75" max="100" className='w-[80%]'></progress>
+                </div>
+                <div className='flex gap-4 items-center'>
+                      <p className='w-[18%]'>PostgreSQL</p>
+                      <progress value="80" max="100" className='w-[80%]'></progress>
+                </div>
             </div>
         </div>
     </div>

@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import profilePic from '../assets/profilePic.png'
 import profileImgSvg from '../assets/profileImgSvg.svg'
 import { FaLinkedin, FaEnvelope, FaGithub, FaSquareInstagram, FaJava } from "react-icons/fa6";
+import About from '../sections/About';
+import Works from '../sections/Works';
 
 function Home() {
   return (
@@ -42,8 +44,9 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className='w-[50vw] h-[75vh] bg-white rounded-r-md'>
-
+        <div className='w-[50vw] h-[75vh] overflow-y-auto bg-white rounded-r-md'>
+            <About/>
+            <Works/>
         </div>
       </div>
     </div>
