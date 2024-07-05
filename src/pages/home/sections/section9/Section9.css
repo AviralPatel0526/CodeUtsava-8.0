@@ -1,0 +1,177 @@
+.codeutsava__section9 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  font-family: "Poppins";
+}
+
+.codeutsava__section9-boxtitle,
+.codeutsava__section9-box,
+.codeutsava__section9-title {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.codeutsava__section9-title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.codeutsava__section9-title img {
+  width: auto;
+  position: relative;
+  height: 110px;
+}
+.codeutsava__section9-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .codeutsava__section9-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.codeutsava__section9-title1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 60px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.codeutsava__section9-title2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 30px 10px 0 10px;
+  display: flex;
+  align-items: center;
+  display: block;
+  justify-content: center;
+}
+
+.codeutsava__section9-boxInfo {
+  font-size: 12px;
+  padding: 0 1rem;
+}
+
+.codeutsava__section9-box {
+  min-width: 200px;
+  min-height: auto;
+  background-image: url("../../../../assets/images/graveyard.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 450px;
+  width: 360px;
+  margin: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.codeutsava__section9-box ul li{
+  margin: 2px 0;
+}
+
+.codeutsava__section9-boxtitle {
+  font-size: 16px;
+  color: gold;
+  font-weight: 900;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+
+@media (width<=1350px) {
+  .codeutsava__section9-description {
+    flex-wrap: wrap;
+  }
+}
+@media (width<=1000px) {
+  .grave {
+    width: 510px;
+  }
+}
+@media (width<=810px) {
+  .codeutsava__section9-boxtitle {
+    font-size: 18px;
+  }
+  .codeutsava__section9-box {
+    width: 100%;
+    padding: 10rem;
+  }
+  .grave {
+    width: 600px;
+  }
+}
+/* @media screen and (max-width: 1000px) {
+  .codeutsava__section9-box {
+    width: 80%;
+  }
+} */
+
+@media screen and (max-width: 630px) {
+  .codeutsava__section9-title1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .codeutsava__section9-title2 {
+    line-height: normal;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .codeutsava__section9-box {
+    /* background-size: 550px 550px; */
+    margin: 10px;
+    height: 400px;
+    padding: 0 3rem;
+  }
+  .codeutsava__section9-boxInfo {
+    font-size: 11px;
+    padding: 0px;
+  }
+  .codeutsava__section9-boxInfo ul li{
+    margin: 1px;
+  }
+  .codeutsava__section9-box {
+    width: 100%;
+    padding: 6rem;
+  }
+}
+@media (width<=470px) {
+  .codeutsava__section9-box {
+    width: 100%;
+    padding: 4.5rem;
+    /* margin-top: 50px; */
+  }
+
+  .codeutsava__section9-boxtitle {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+}
+/* .codeutsava__section9-boxtitle {
+    font-size: 24px;
+  }
+
+  .codeutsava__section9-boxInfo {
+    font-size: 16px;
+  } */

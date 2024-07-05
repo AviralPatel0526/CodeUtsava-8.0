@@ -1,0 +1,126 @@
+.codeutsava__section15 {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  color: white;
+  font-family: "Poppins";
+}
+.codeutsava__section15-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 60px 10px 60px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeutsava__section15-title img {
+  width: auto;
+  position: relative;
+  height: 110px;
+}
+.codeutsava__section15-glimpses-panel-evenoverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 9px;
+  background-color: rgb(230, 118, 20);
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.codeutsava__section15-glimpses-panel-oddoverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 9px;
+  background-color: var(--primary-c);
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.codeutsava__section15-glimpses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .codeutsava__section15-glimpses-panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  border-radius: 2rem;
+  border-color: var(--primary-c);
+  border: var(--primary-c) 2px solid;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+  overflow: hidden;
+} */
+.codeutsava__section15-glimpses-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.codeutsava__section15-glimpses-panel:hover::before {
+  transform: scale(1.2);
+}
+
+.codeutsava__section15-glimpses-panel:hover
+  .codeutsava__section15-glimpses-panel-oddoverlay {
+  opacity: 0.5;
+}
+.codeutsava__section15-glimpses-panel:hover
+  .codeutsava__section15-glimpses-panel-evenoverlay {
+  opacity: 0.5;
+}
+
+.codeutsava__section15-glimpses-panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  /* border-radius: 2rem;
+  border-color: var(--primary-c); */
+  /* border: var(--primary-c) 2px solid; */
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  /* transition: flex 0.7s ease-in, transform 0.3s ease;  */
+  overflow: hidden;
+  transform-origin: center;
+}
+@media screen and (max-width: 415px) {
+  .codeutsava__section15 {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+  .codeutsava__section15-title {
+    font-size:40px;
+  }
+
+}
